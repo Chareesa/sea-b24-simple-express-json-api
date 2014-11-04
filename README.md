@@ -1,15 +1,7 @@
-Simple JSON API
-==============================
-A simple json api using express
+For the functions, I referred to the 'Time Server' exercise in LearnYouNode.
 
-Instructions
----------------------------
-  * Fork this repo
-  * Clone that fork
-  * run `npm install`
-  * add your code to server.js, Gruntfile.js and test/api_test.js
-    * This will be a lot more code than the Mean, Median, Mode assignment
-  * test your code using `npm test`
-  * push to your fork
-  * create a pull request
-  * submit that pull requre url to canvas
+I referred to Stackoverflow to find how to grab the pathname (req.params.filepath): http://stackoverflow.com/questions/18931452/node-js-get-path-from-the-request
+
+After many attempts, I asked Jeff (our TA) how to tweak the req.params to grab the variable given at the end of the url.
+
+For Chai, I mostly went of off Tyler's Mocha practice in class.
